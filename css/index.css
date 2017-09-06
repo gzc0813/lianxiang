@@ -1,0 +1,2288 @@
+html,body,dl,dd,tr,td,ul,ol,li,th,h1,h2,h3,h4,h5,img,p,table,input{margin:0;padding:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+img{border:none;}
+body{
+   background:#f5f5f5;
+   font-family:"微软雅黑",Arial;
+   position: relative;
+}
+
+
+/*----------------导航栏1-----------------*/
+.header1{
+	width:100%;
+	height:24px;
+	position:relative;
+	background:#000;
+}
+#header1{
+  display:flex;
+  height:24px;
+  position: absolute;
+  left:85px;top:0;
+}
+#header1 li{
+	height:24px;
+   display:flex;
+   align-items:center;
+}
+#header1 li:nth-child(4){display:flex;}
+#header1 a{
+	display:block;
+	height:16px;
+	font-size:12px;
+	padding:0 10px;
+	line-height:16px;
+	border-right:1px solid #9e9e9e;
+	color:#9e9e9e;
+}
+#header1 li:nth-child(4) a{
+	border:none;
+}
+#header1 em{margin-left:20px;}
+/*箭头图标*/
+#img1{
+	position:absolute;
+	left:360px;top:6px;
+	z-index:10;
+}
+#img2{
+	position:absolute;
+	left:360px;top:6px;
+}
+#img3{
+	position:absolute;
+	left:496px;top:6px;
+	z-index:10;
+}
+#img4{
+	position:absolute;
+	left:496px;top:6px;	
+}
+#img5{
+	position:absolute;
+	left:576px;top:6px;
+	z-index:10;
+}
+#img6{
+	position:absolute;
+	left:576px;top:6px;
+
+}
+/*------二级菜单-------*/
+#header1 .img1{
+	width:102px;
+	height:0px;
+	position:absolute;
+	left:286px;top:24px;
+	background:#fff;
+	overflow:hidden;
+	transition:all 0.3s;
+	z-index:100001;
+}
+#header1 .img1 li{
+	width:102px;
+	height:38px;
+	font-size:12px;
+	line-height:38px;	
+}
+#header1  .img1 a{color:#000;border:none;}
+#header1 .img2{
+	width:140px;
+	height:0px;
+	position:absolute;
+	background:#fff;
+	left:437px;top:24px;
+	overflow:hidden;
+	transition:all 0.3s;
+	z-index:100001;	
+}
+#header1 .img2 li{
+	width:200px;
+	height:38px;
+	line-height:38px;
+}
+#header1 .img2 img{
+	float:left;
+	margin-top:-6px;
+}
+#header1 .img2 span{
+	float:left;
+	width:120px;
+	padding-left:5px;
+}
+#header1 .img2 a{color:#000;font-size:12px;border:none;}
+#header1 .img3{
+	width:252px;
+	height:0px;
+	position:absolute;
+	left:525px;top:24px;
+	transition:all 0.3s;
+	z-index:100001;
+}
+/*------用css3写导航栏的效果--------*/
+/*图标和字变白*/
+#header1 a:hover{
+	color:#fff;
+}
+#header1 a:hover img{
+	z-index:100;
+}
+/*滑过二级菜单字体变红*/
+#header1 .img2 a:hover{
+	color:red;
+}
+#header1 .img1 a:hover{
+	color:red;
+}
+/*滑过li二级菜单显示*/
+#header1 li:nth-child(4):hover .img1{
+	height:193px;
+  }
+#header1 li:nth-child(6):hover .img2{
+	height:286px;
+  }
+#header1 li:nth-child(7):hover .img3{
+	height:138px;
+  }
+
+/*------------ logo------------------*/
+.logo{
+	position: fixed;
+	left:0;top:0;
+	z-index:10001;
+}
+#logo1{
+	position:fixed;
+	left:0;top:0;
+	z-index:10000;
+}
+/*--------------导航栏2------------------------*/
+#nav{
+	position:relative;
+	width:100%;
+	height:74px;
+}
+/*nav1*/
+.nav1{
+	width:670px;
+	height:74px;
+	float:left;
+	margin-left:82px; 
+}
+.nav1 li{
+	height:56px;
+	margin-top:4px; 
+	padding:0 14px;
+	line-height:56px;
+	float:left;
+}
+.nav1 li a{
+	font-size:16px;
+	color:#000;
+}
+.nav1 #lis{
+	width:172px;
+	height:0px;
+	position:absolute;
+	top:50px;left:470px;
+	background:#fff;
+	overflow:hidden;
+	transition:all 0.3s;
+	z-index:100001;
+}
+#lis p{
+	height:35px;
+	margin-top:0;
+	line-height:35px;
+	text-align:center;
+	
+}
+#lis a{font-size:14px;}
+.nav1 a:hover{
+	color:red;
+}
+.nav1 li:nth-child(6):hover #lis{
+	height:142px;
+  }
+
+/*nav2*/
+.nav2{
+	height:74px;
+	float:left;
+	position:relative;
+}
+/*输入框*/
+.nav2 a{
+	display:block;
+	position:relative;
+	width:274px;
+	height:27px;
+	margin-top:20px;
+}
+.nav2 input{
+	width:244px;
+	height:25px;
+	float:left;
+	padding-left:10px;
+	background:#f5f5f5;
+	border:1px solid #d2d2d2;
+}
+#nav span{
+	width:28px;
+	height:27px;
+	float:left;
+}
+#sou1{
+	position:absolute;
+	top:0px;left:246px;
+
+}
+#sou2{
+	position:absolute;
+	top:0;left:246px;
+
+}
+#sp:hover #sou2{
+   display:none;
+}
+.nav2 p{
+	width:40px;
+	height:22px;
+	color:#b9b9b9;
+	text-align:center;
+	position:absolute;
+	top:23px;left:199px;
+}
+#p:hover{
+	color:#7e7e7e;
+}
+.nav2 h1{
+	width:70px;
+	height:21px;
+	color:#707070;
+	font-size:12px;
+	line-height:21px;
+	background:#f5f5f5;
+	text-align:center;
+	position:absolute;
+	top:23px;left:165px;
+}
+.nav2 h1 a{
+	display:inline;
+	font-size:12px;
+	font-weight:100;
+	border:none;
+}
+.nav2 h1:hover{
+	background:#ed5454;
+	color:#fff;
+}
+#imgs{
+	position: absolute;
+	left:171px;top:3px;
+}
+#imgs1{
+	position: absolute;
+	left:433px;top:3px;
+}
+/*注册登录*/
+.nav3{
+	width:180px;
+	height:16px;
+	margin:20px 80px 0 44px;
+	float:left;
+}
+.nav3 img{width:44px;height:24px;margin-top:-6px;}
+.nav3 li{
+	 float:left;
+	 padding:0 10px;
+	 height:16px;
+	 line-height:16px;
+	 border-right:1px solid #333333;
+}
+.nav3 li:nth-child(3){border:none;}
+.nav3 li a{
+	font-size:14px;
+	color:#333333;
+}
+/*-----------------------轮播图------------------------------*/
+/*外层大盒子*/
+#lunbotu{
+	width:100%;
+	height:406px;
+	position:relative;
+}
+ /*放置图片的盒子*/
+ #imbox{
+ 		width:100%;
+    height:406px;
+      list-style:none;
+      position: absolute;
+ 	 left:0;top:0;
+     }
+ #imbox li{
+  transition :opacity 2s;
+ 	position:absolute;
+ 	left:0;
+ }
+ #imbox img{
+ 	width:100%;
+    height:406px;
+ }	
+ /*底部按钮*/
+ #yuanbox{
+ 	 width:200px;
+ 	 height:10px;
+ 	 position: absolute;
+    right:35%; bottom:20px;
+ 	list-style:none;
+ 	z-index:100;
+ }
+  #yuanbox li{
+  	 width:10px;
+  	 height:10px;
+  	 margin:0 5px;
+  	 border-radius:50%;
+  	 background:#ccc;
+  	 float:left; 
+
+  }
+  /*左右按键*/
+  #left{
+  	  position:absolute;
+  	  left:0;top:160px;
+  	  width:50px;
+  	  height:80px;
+      background:#c1bcbc;
+      color:#fff;
+      opacity:0.5;
+      font-weight:600;
+      font-size:50px;
+      display:none;
+        text-align: center;
+          cursor: pointer;
+  }
+    #right{
+  	  position:absolute;
+  	 right:0;top:160px;
+  	  width:50px;
+  	  height:80px;
+  	  opacity:0.5;
+      background:#c1bcbc;
+      color:#fff;
+      font-weight:600;
+      font-size:50px;
+      display:none;
+      text-align: center;
+       cursor: pointer;
+  }
+
+/* -------轮播显现卡--------------*/
+#displayCard{
+    width:190px;
+    height:406px;
+    background:#fff;
+   position:absolute;
+   top:0px;left:75px;
+}
+#displayCard li{
+	height:39.8px;
+	padding:0 15px 0 20px;
+	line-height:40.6px;
+	border-bottom:1px solid #e6e6e6;
+}
+#displayCard li a{
+	font-size:14px;
+	color:#000;
+}
+#displayCard li span{
+	position:absolute;
+	right:15px;
+	color:#5b5a57;
+}
+/*----------------显示卡1---------*/
+.li1{
+	width:934px;
+	height:386px;
+	padding: 0 22px 20px 52px;
+	position:absolute;
+	top:0px;left:190px;
+	background:#f7f7f7;
+	z-index:1000;
+	display: none;
+}
+/*----------------显示卡1左边内容---------*/
+#li1-left{
+	width:630px;
+	height:300px;
+	float:left;
+	margin-top:20px;
+	padding-top:10px; 
+}
+#li1-left li{
+	float:left;
+	border:none;
+	padding:0;
+	height:28px;
+	line-height:28px;
+	font-size:14px;
+}
+#li1-left li a{
+	border-left:1px solid #e5e5e5;	
+	padding:0 10px;
+}
+#li1-left-1{
+	width:100%;
+	height:47px;
+	margin-top:10px;
+}
+.li1 #li1-left-1 p{
+	width:100%;
+	height:19px;
+	line-height:19px;
+	text-align:left;
+	font-size:14px;
+}
+.li1 #li1-left-1 ul{
+	width:575px;
+	height:28px;
+	margin-left:50px;
+	border-bottom:1px solid #e5e5e5;
+}
+#li1-left a:hover{
+	color:red;
+}
+#li1-left p:hover{
+	color:red;
+}
+/*----------------显示卡1右边图片---------*/
+#li1-right{
+	float:left;
+	width:255px;
+	margin:10px 0 0 40px;
+}
+#li1-right img:nth-child(2){
+	margin-top:-6px;
+}
+/*----------------显示卡1效果---------*/
+#displayCard li:nth-child(1):hover span{
+    color:red; 
+}
+#displayCard li:nth-child(1):hover{
+    background:#f7f7f7;
+}
+#displayCard li:nth-child(1):hover .li1{
+    display:block;
+}
+/*-----------------------------显示卡2------------------*/
+.li2{
+	width:934px;
+	height:386px;
+	padding: 0 22px 20px 52px;
+	position:absolute;
+	top:0px;left:190px;
+	background:#f7f7f7;
+   display:none;
+	z-index:1000;
+
+}
+/*----------------显示卡2左边内容---------*/
+#li2-left{
+	width:630px;
+	height:300px;
+	float:left;
+	margin-top:20px;
+	padding-top:10px; 
+}
+#li2-left li{
+	float:left;
+	border:none;
+	padding:0;
+	height:28px;
+	line-height:28px;
+	font-size:14px;
+}
+#li2-left li a{
+	border-left:1px solid #e5e5e5;	
+	padding:0 10px;
+}
+#li2-left-1{
+	width:100%;
+	height:47px;
+	margin-top:10px;
+}
+.li2 #li2-left-1 p{
+	width:100%;
+	height:19px;
+	line-height:19px;
+	text-align:left;
+	font-size:14px;
+}
+.li2 #li2-left-1 ul{
+	width:575px;
+	height:28px;
+	margin-left:50px;
+	border-bottom:1px solid #e5e5e5;
+}
+.li2 #li2-left-1:nth-child(1){
+	height:70px; 
+}
+.li2 #li2-left-1 #ul1{
+	width:575px;
+   height:56px;
+
+   line-height:47px;
+}
+#li2-left a:hover{
+	color:red;
+}
+#li2-left p:hover{
+	color:red;
+}
+/*----------------显示卡2右边图片---------*/
+#li2-right{
+	float:left;
+	width:255px;
+	margin:10px 0 0 40px;
+}
+#li2-right img:nth-child(2){
+	margin-top:-6px;
+}
+
+/*----------------显示卡2效果---------*/
+#displayCard #xiaogu2:hover span{
+    color:red; 
+}
+#displayCard #xiaogu2:hover{
+    background:#f7f7f7;
+}
+#displayCard #xiaogu2:hover .li2{
+    display:block;
+}
+/*-----------------------------显示卡3------------------*/
+.li3{
+	width:934px;
+	height:386px;
+	padding: 0 22px 20px 52px;
+	position:absolute;
+	top:0px;left:190px;
+	background:#f7f7f7;
+	z-index:1000;
+  display:none;
+}
+/*----------------显示卡3左边内容---------*/
+#li3-left{
+	width:630px;
+	height:300px;
+	float:left;
+	margin-top:20px;
+	padding-top:10px; 
+}
+#li3-left li{
+	float:left;
+	border:none;
+	padding:0;
+	height:28px;
+	line-height:28px;
+	font-size:14px;
+}
+#li3-left li a{
+	border-left:1px solid #e5e5e5;	
+	padding:0 10px;
+	font-size:12px;
+}
+#li3-left-1{
+	width:100%;
+	height:47px;
+	margin-top:20px;
+}
+.li3 #li3-left-1 p{
+	width:100%;
+	height:19px;
+	line-height:19px;
+	text-align:left;
+	font-size:14px;
+}
+.li3 #li3-left-1 ul{
+	width:575px;
+	height:28px;
+	margin-left:50px;
+	margin-top:10px;
+	border-bottom:1px solid #e5e5e5;
+}
+.li3 #li3-left-1:nth-child(1){
+	height:70px; 
+}
+.li3 #li3-left-1 #ul1{
+	width:575px;
+   height:56px;
+   line-height:47px;
+}
+#li3-left a:hover{
+	color:red;
+}
+#li3-left p:hover{
+	color:red;
+}
+/*----------------显示卡3右边图片---------*/
+ #li3-right{
+	float:left;
+	width:255px;
+	margin:10px 0 0 40px;
+}
+ #li3-right img:nth-child(2){
+	margin-top:-6px;
+}
+/*----------------显示卡3效果---------*/
+#displayCard #xiaogu3:hover span{
+    color:red; 
+}
+#displayCard #xiaogu3:hover{
+    background:#f7f7f7;
+}
+#displayCard #xiaogu3:hover .li3{
+    display:block;
+}
+/*----------------显示卡4---------*/
+.li4{
+	width:934px;
+	height:386px;
+	padding: 0 22px 20px 52px;
+	position:absolute;
+	top:0px;left:190px;
+	background:#f7f7f7;
+	z-index:1000;
+	display: none;
+}
+/*----------------显示卡4左边内容---------*/
+#li4-left{
+	width:630px;
+	height:300px;
+	float:left;
+	margin-top:20px;
+	padding-top:10px; 
+}
+#li4-left li{
+	float:left;
+	border:none;
+	padding:0;
+	height:28px;
+	line-height:28px;
+	font-size:14px;
+}
+#li4-left li a{
+	border-left:1px solid #e5e5e5;	
+	padding:0 10px;
+}
+#li4-left-1{
+	width:100%;
+	height:47px;
+	margin-top:10px;
+}
+.li4 #li4-left-1 p{
+	width:100%;
+	height:19px;
+	line-height:19px;
+	text-align:left;
+	font-size:14px;
+}
+.li4 #li4-left-1 ul{
+	width:575px;
+	height:28px;
+	margin-left:50px;
+	border-bottom:1px solid #e5e5e5;
+}
+#li4-left a:hover{
+	color:red;
+}
+#li4-left p:hover{
+	color:red;
+}
+/*----------------显示卡4右边图片---------*/
+#li4-right{
+	float:left;
+	width:255px;
+	margin:10px 0 0 40px;
+}
+#li4-right img:nth-child(2){
+	margin-top:-6px;
+}
+/*----------------显示卡4效果---------*/
+#displayCard #xiaogu4:hover span{
+    color:red; 
+}
+#displayCard #xiaogu4:hover{
+    background:#f7f7f7
+    }
+#displayCard #xiaogu4:hover .li4{
+    display:block;
+}
+/*----------------显示卡5---------*/
+.li5{
+	width:934px;
+	height:386px;
+	padding: 0 22px 20px 52px;
+	position:absolute;
+	top:0px;left:190px;
+	background:#f7f7f7;
+	z-index:1000;
+	display: none;
+}
+/*----------------显示卡5左边内容---------*/
+#li5-left{
+	width:630px;
+	height:300px;
+	float:left;
+	margin-top:20px;
+	padding-top:10px; 
+}
+#li5-left li{
+	float:left;
+	border:none;
+	padding:0;
+	height:28px;
+	line-height:28px;
+	font-size:14px;
+}
+#li5-left li a{
+	border-left:1px solid #e5e5e5;	
+	padding:0 10px;
+	font-size:12px;
+}
+#li5-left-1{
+	width:100%;
+	height:47px;
+	margin-top:10px;
+}
+.li5 #li5-left-1 p{
+	width:100%;
+	height:19px;
+	line-height:19px;
+	text-align:left;
+	font-size:14px;
+}
+.li5 #li5-left-1 ul{
+	width:575px;
+	height:28px;
+	margin-left:50px;
+	border-bottom:1px solid #e5e5e5;
+}
+#li5-left a:hover{
+	color:red;
+}
+#li5-left p:hover{
+	color:red;
+}
+/*----------------显示卡5右边图片---------*/
+#li5-right{
+	float:left;
+	width:255px;
+	margin:10px 0 0 40px;
+}
+#li5-right img:nth-child(2){
+	margin-top:-6px;
+}
+/*----------------显示卡5效果---------*/
+#displayCard #xiaogu5:hover span{
+    color:red; 
+}
+#displayCard #xiaogu5:hover{
+    background:#f7f7f7
+    }
+#displayCard #xiaogu5:hover .li5{
+    display:block;
+}
+
+/*----------------显示卡6---------*/
+.li6{
+	width:934px;
+	height:386px;
+	padding: 0 22px 20px 52px;
+	position:absolute;
+	top:0px;left:190px;
+	background:#f7f7f7;
+	display:none;
+	z-index:1000;
+
+}
+/*----------------显示卡6左边内容---------*/
+#li6-left{
+	width:630px;
+	height:300px;
+	float:left;
+	margin-top:20px;
+	padding-top:10px; 
+}
+.li6 #li6-left-1 p{
+	width:100%;
+	height:30px;
+	line-height:30px;
+	text-align:left;
+	font-size:14px;
+}
+#li6-left a:hover{
+	color:red;
+}
+/*----------------显示卡6右边图片---------*/
+#li6-right{
+	float:left;
+	width:255px;
+	margin:10px 0 0 40px;
+}
+#li6-right img:nth-child(2){
+	margin-top:-6px;
+}
+/*----------------显示卡6效果---------*/
+#displayCard #xiaogu6:hover span{
+    color:red; 
+}
+#displayCard #xiaogu6:hover{
+    background:#f7f7f7
+    }
+#displayCard #xiaogu6:hover .li6{
+    display:block;
+}
+/*-----------------------------显示卡7------------------*/
+.li7{
+	width:934px;
+	height:386px;
+	padding: 0 22px 20px 52px;
+	position:absolute;
+	top:0px;left:190px;
+	background:#f7f7f7;
+	z-index:1000;
+  display:none;
+}
+/*----------------显示卡7左边内容---------*/
+#li7-left{
+	width:630px;
+	height:300px;
+	float:left;
+	margin-top:20px;
+	padding-top:10px; 
+}
+#li7-left li{
+	float:left;
+	border:none;
+	padding:0;
+	height:28px;
+	line-height:28px;
+	font-size:14px;
+}
+#li7-left li a{
+	border-left:1px solid #e5e5e5;	
+	padding:0 10px;
+	font-size:12px;
+}
+#li7-left-1{
+	width:100%;
+	height:47px;
+	margin-top:20px;
+}
+.li7 #li7-left-1 p{
+	width:100%;
+	height:19px;
+	line-height:19px;
+	text-align:left;
+	font-size:14px;
+}
+.li7 #li7-left-1 ul{
+	width:575px;
+	height:28px;
+	margin-left:50px;
+	margin-top:10px;
+	border-bottom:1px solid #e5e5e5;
+}
+.li7 #li7-left-1:nth-child(1){
+	height:70px; 
+}
+.li7 #li7-left-1 #ul1{
+	width:575px;
+   height:56px;
+   line-height:47px;
+}
+#li7-left a:hover{
+	color:red;
+}
+#li7-left p:hover{
+	color:red;
+}
+/*----------------显示卡7右边图片---------*/
+ #li7-right{
+	float:left;
+	width:255px;
+	margin:10px 0 0 40px;
+}
+ #li7-right img:nth-child(2){
+	margin-top:-6px;
+}
+/*----------------显示卡7效果---------*/
+#displayCard #xiaogu7:hover span{
+    color:red; 
+}
+#displayCard #xiaogu7:hover{
+    background:#f7f7f7;
+}
+#displayCard #xiaogu7:hover .li7{
+    display:block;
+}
+/*----------------显示卡8---------*/
+.li8{
+	width:934px;
+	height:386px;
+	padding: 0 22px 20px 52px;
+	position:absolute;
+	top:0px;left:190px;
+	background:#f7f7f7;
+	display:none;
+	z-index:1000;
+
+}
+/*----------------显示卡8左边内容---------*/
+#li8-left{
+	width:630px;
+	height:300px;
+	float:left;
+	margin-top:20px;
+	padding-top:10px; 
+}
+.li8 #li8-left-1 p{
+	width:100%;
+	height:30px;
+	line-height:30px;
+	text-align:left;
+	font-size:14px;
+}
+#li8-left a:hover{
+	color:red;
+}
+/*----------------显示卡8右边图片---------*/
+#li8-right{
+	float:left;
+	width:255px;
+	margin:10px 0 0 40px;
+}
+#li8-right img:nth-child(2){
+	margin-top:-6px;
+}
+/*----------------显示卡8效果---------*/
+#displayCard #xiaogu8:hover span{
+    color:red; 
+}
+#displayCard #xiaogu8:hover{
+    background:#f7f7f7
+    }
+#displayCard #xiaogu8:hover .li8{
+    display:block;
+}
+/*-----------------------------显示卡9------------------*/
+.li9{
+	width:934px;
+	height:386px;
+	padding: 0 22px 20px 52px;
+	position:absolute;
+	top:0px;left:190px;
+	background:#f7f7f7;
+	z-index:1000;
+  display:none;
+}
+/*----------------显示卡9左边内容---------*/
+#li9-left{
+	width:630px;
+	height:300px;
+	float:left;
+	margin-top:20px;
+	padding-top:10px; 
+}
+#li9-left li{
+	float:left;
+	border:none;
+	padding:0;
+	height:28px;
+	line-height:28px;
+	font-size:14px;
+}
+#li9-left li a{
+	border-left:1px solid #e5e5e5;	
+	padding:0 10px;
+	font-size:12px;
+}
+#li9-left-1{
+	width:100%;
+	height:40px;
+	margin-top:20px;
+}
+.li9 #li9-left-1 p{
+	width:100%;
+	height:16px;
+	line-height:16px;
+	text-align:left;
+	font-size:14px;
+}
+.li9 #li9-left-1 ul{
+	width:575px;
+	height:24px;
+	margin-left:50px;
+	margin-top:10px;
+	border-bottom:1px solid #e5e5e5;
+}
+#li9-left a:hover{
+	color:red;
+}
+#li9-left p:hover{
+	color:red;
+}
+/*----------------显示卡9右边图片---------*/
+ #li9-right{
+	float:left;
+	width:255px;
+	margin:10px 0 0 40px;
+}
+ #li9-right img:nth-child(2){
+	margin-top:-6px;
+}
+/*----------------显示卡9效果---------*/
+#displayCard #xiaogu9:hover span{
+    color:red; 
+}
+#displayCard #xiaogu9:hover{
+    background:#f7f7f7;
+}
+#displayCard #xiaogu9:hover .li9{
+    display:block;
+}
+/*.......................优惠栏................*/
+#bgcolor{
+	position:relative;
+	background:#fff;
+	width:100%;
+	height:100%;
+	padding-bottom:10px; 
+}
+.disco{
+	position:relative;
+	width:100%;
+	height:91px;
+	background:#fff;	
+}
+#ft{
+	position:absolute;
+	right:10px;top:10px;
+	display:none;
+}
+#discounts{
+	width:1000px;
+	height:74px;
+	margin:0 auto;
+	padding: 16px 100px 0 100px;
+	border-bottom: 1px solid #9c9c9c;
+	margin-bottom:10px;
+}
+#discounts li{
+	width:60px;
+	height:70px;
+	text-align:center;
+	position:relative;
+	font-size:12px;
+	color:rgb(156, 156, 156);
+	margin: 0 30px;
+	float:left;
+}
+#s2,#j2,#h2,#r2,#sr2,#x2,#yj2,#zc2{
+	position:absolute;
+	top:0px;left:12px;
+	display:none;
+}
+
+#discounts li:nth-child(1):hover #s2{
+	display:block;
+}
+#discounts li:nth-child(2):hover #j2{
+	display:block;
+}
+#discounts li:nth-child(3):hover #h2{
+	display:block;
+}
+#discounts li:nth-child(4):hover #r2{
+	display:block;
+}
+#discounts li:nth-child(5):hover #sr2{
+	display:block;
+}
+#discounts li:nth-child(6):hover #x2{
+	display:block;
+}
+#discounts li:nth-child(7):hover #yj2{
+	display:block;
+}
+#discounts li:nth-child(8):hover #zc2{
+	display:block;
+}
+
+#discounts li:hover p{
+	color:rgb(91,91,91);
+}
+/*----------------------放大效果---------------------*/
+#Amplificationeffect{
+	width:1200px;
+	height:140px;
+	margin-top:10px;
+	margin:0 auto;
+}
+#Amplificationeffect li{
+	position:relative;
+	width: 387px;
+	height: 140px;
+	float: left;
+	margin-right:19px;
+	overflow: hidden;
+}
+#Amplificationeffect li:nth-child(3){
+	margin-right:0;
+}
+/*----------------------明星单品-------------------------------*/
+#starbox{
+	width:1200px;
+	height:341px;
+	background:#fff;
+	margin:10px auto 35px;
+}
+#starbox #starbox1{
+	width:1200px;
+	height:42px;
+	line-height:42px;
+}
+#starbox1 h2{
+	font-size:22px;
+	font-weight:100;
+	float:left;
+}
+#starbox1 p{
+	width:18px;
+	height:18px;
+	margin-top:9px;
+	float:right;
+}
+#starbox1 #p1{
+  margin-left:10px;
+  margin-top:15px;
+  background:url(../img/mx2.png) center;
+}
+#starbox1 #p2{
+	margin-top:15px;
+  background:url(../img/mx1.png) center;
+}
+#starbox2{
+	position:relative;
+	width:1200px;
+	height:334px;
+	margin:0 auto;
+	overflow:hidden;
+}
+#oul{
+	width:4000px;
+	height:334px;
+	position:absolute;
+	left:0;top:0;
+}
+#oul li{
+	width:198px;
+	height:297px;
+	border:1px solid #e6e6e6;
+	float:left;
+	text-align:center;
+}
+#oul li img{
+width: 180px;
+height: 180px;
+margin: 15px 10px 28px 10px;
+}
+#oul li a{
+	font-size:14px;
+	color: #333;
+	text-align:center;
+}
+#oul li:hover{
+	border-top:1px solid red;
+}
+/* ......................接下来写楼层.........................*/
+#Floor{
+	width:100%;
+	height:3926px;
+	padding:30px 0;
+}
+/*===============1--6楼=================*/
+#Floor .Floor1{
+	width:1200px;
+	height:583px;
+	margin:0 auto 30px;
+	
+}
+#Floor .Floor1 .floor-l1{
+  width:1200px;
+  height:48px;
+}
+#Floor .Floor1 .floor-l1 h3{
+	width:240px;
+	height:48px;
+	line-height: 48px;
+    font-size: 20px;
+    font-weight: normal;
+	float:left; 
+}
+#Floor .Floor1 .floor-l1 .floor_links{
+	width:960px;
+	height:17px;
+	float: right;
+	position:relative;
+   text-align: right;
+	padding-top:20px;
+}
+.floor_links a{
+  color: #6f7170;
+  font-size:14px;
+  margin-left: 12px;
+}
+.floor_links :nth-last-child(2){
+	margin-right:20px;
+}
+.floor_links img{
+	position:absolute;
+	right:0;top:23px;
+}
+#Floor .Floor1 .floor-l2{
+	width:1200px;
+	height:535px;
+}
+.floor-l2 .floor1-left{
+	width:240px;
+	height:535px;
+	float:left;
+}
+.floor-l2 .floor1-right{
+	width:960px;
+	height:535px;
+	float: right;
+	border-top: 1px solid #dedede;
+}
+.floor-l2 .floor1-right li{
+		width: 239px;
+		height: 266px;
+		border-right: 1px solid #dedede;
+		border-bottom: 1px solid #dedede;
+		float: left;
+		position: relative;
+		background: #fff;
+		text-align: center;
+}
+ #floor1box{
+ 	width:239px;
+ 	height:164px;	
+ 	margin:12px auto;
+ }
+ .floor1img{
+  margin:0 auto;
+ 	width:164px;
+ 	height:164px;
+ }
+ .floor1img img{
+    width:164px;
+ 	height:164px;
+ }
+.floor-l2 .floor1-right li a{
+	font-size:14px;
+	color: #333;
+	text-align:center;
+}
+/*===============7楼=================*/
+#Floor .Floor2{
+	width:1200px;
+	height:258px;
+	margin:0 auto 30px;
+	
+}
+#Floor .Floor2 .floor2-l1{
+  width:1200px;
+  height:48px;
+}
+#Floor .Floor2 .floor2-l1 h3{
+	width:100%;
+	height:42px;
+	line-height: 42px;
+    font-size: 20px;
+    font-weight:normal;
+	float:left; 
+}
+.Floor2 .floor2-l2{
+  width:1200px;
+  height:212px;
+  margin:0 auto;
+}
+.Floor2 .floor2-l2 li{
+  width:190px;
+  height:212px;
+  float:left;
+  margin-right:12px;
+  transition:all 0.5s;
+}
+.Floor2 .floor2-l2 li:last-child{
+	 margin-right:0;
+}
+.Floor2 .floor2-l2 li:nth-child(1):hover{
+	box-shadow: 0 0 20px 5px #333;
+}
+.Floor2 .floor2-l2 li:nth-child(2):hover{
+	box-shadow: 0 0 20px 5px #333;
+}
+.Floor2 .floor2-l2 li:nth-child(3):hover{
+	box-shadow: 0 0 20px 5px #333;
+}
+.Floor2 .floor2-l2 li:nth-child(4):hover{
+	box-shadow: 0 0 20px 5px #333;
+}
+.Floor2 .floor2-l2 li:nth-child(5):hover{
+	box-shadow: 0 0 20px 5px #333;
+}
+.Floor2 .floor2-l2 li:nth-child(6):hover{
+	box-shadow: 0 0 20px 5px #333;
+}
+/*================楼层结束==================*/
+/*===================侧边栏======================*/
+/* ------------左侧边栏--------------*/
+#theLeft{
+	width:30px;
+	height:296px;
+	display:none;
+	position:fixed;
+	left:30px;top:20%;
+}
+#theLeft li{
+	position: relative;
+	 width:30px;
+	 height:26px;
+	 text-align:center;
+	 margin:0 auto;
+}
+#theLeft a{
+	color:#9e9e9e;
+	font-size:12px;
+}
+#theLeft em{
+	font-style:normal; 
+	height:26px;
+	display:none;
+}
+#theLeft .hg{
+	color:#9e9e9e;
+	height:1px;
+	width:10px;
+	font-size:16px;
+	padding-bottom:20px;
+}
+/* ------------右侧边栏--------------*/
+#theRight{
+ width:47px;
+ height:299px;
+ position:fixed;
+ right:0;top:20%;
+ display:none;
+}
+#theRight li{
+	width:47px;
+	height:55px;
+}
+#theRight li:last-child{
+	height:20px;
+	border:0;
+	background:url(../img/theRight.png) 57px 143px;
+}
+#theRight li:nth-child(1){
+	background:url(../img/theRight.png) 57px 415px;
+position:relative;
+}
+#theRight li:nth-child(2){
+	background:url(../img/theRight.png) 57px 361px;
+position:relative;
+}
+#theRight li:nth-child(3){
+	background:url(../img/theRight.png) 57px 307px;
+
+}
+#theRight li:nth-child(4){
+	background:url(../img/theRight.png) 57px 252px;
+
+}
+#theRight li:nth-child(5){
+	background:url(../img/theRight.png) 57px 196px;
+	position:relative;
+}
+/*==================划过图标变红=======================*/
+#theRight li:nth-child(1):hover{
+   background:url(../img/theRight.png) 57px 737px;
+}
+#theRight li:nth-child(2):hover{
+   background:url(../img/theRight.png) 57px 683px;
+}
+#theRight li:nth-child(3):hover{
+   background:url(../img/theRight.png) 57px 629px;
+}
+#theRight li:nth-child(4):hover{
+   background:url(../img/theRight.png) 57px 573px;
+}
+#theRight li:nth-child(5):hover{
+   background:url(../img/theRight.png) 57px 518px;
+}
+#theRight li:nth-child(6):hover{
+   background:url(../img/theRight.png) 57px 465px;
+}
+/*=====二级菜单======*/
+ #theRight #lis1{
+ 	width:0px;
+	height:360px;
+	overflow:hidden;
+	position:absolute;
+	transition:all 1s; 
+	left:-307px;top:0px;/*-195*/
+ }
+ #theRight li:nth-child(1):hover #lis1{
+   width:195px;
+   transform:translateX(112px);
+}
+ #theRight #lis1 li:nth-child(1){
+	width:195px;
+	height:52px;
+	background:url(../img/theRight.png) 922px 736px;
+}
+#theRight #lis1 li:nth-child(2){
+	width:195px;
+	height:50px;
+	background:url(../img/theRight.png) 922px 684px;
+}
+#theRight #lis1 li:nth-child(3){
+	width:195px;
+	height:52px;
+	background:url(../img/theRight.png) 922px 635px;
+}
+#theRight #lis1 li:nth-child(4){
+	width:195px;
+	height:52px;
+	background:url(../img/theRight.png) 922px 583px;
+}
+#theRight #lis1 li:nth-child(5){
+	width:195px;
+	height:50px;
+	background:url(../img/theRight.png) 922px 531px;
+}
+#theRight #lis1 li:nth-child(6){
+	width:195px;
+	height:52px;
+	background:url(../img/theRight.png) 922px 482px;
+}
+#theRight #lis1 li:nth-child(7){
+	width:195px;
+	height:52px;
+	background:url(../img/theRight.png) 922px 430px;
+}
+/*二级菜单中划过效果*/
+#theRight #lis1 li:nth-child(1):hover{
+	background:url(../img/theRight.png) 1192px 736px;
+}
+#theRight #lis1 li:nth-child(2):hover{
+	background:url(../img/theRight.png) 1192px 684px;
+}
+#theRight #lis1 li:nth-child(3):hover{
+	background:url(../img/theRight.png) 1192px 635px;
+}
+#theRight #lis1 li:nth-child(4):hover{
+	background:url(../img/theRight.png) 1192px 583px;
+}
+#theRight #lis1 li:nth-child(5):hover{
+	background:url(../img/theRight.png) 1192px 531px;
+}
+#theRight #lis1 li:nth-child(6):hover{
+	background:url(../img/theRight.png) 1192px 482px;
+}
+#theRight #lis1 li:nth-child(7):hover{
+	background:url(../img/theRight.png) 1192px 430px;
+}
+/*==========二级菜单==========*/
+#theRight #lis2{
+	width:0px;
+	height:156px;
+	position:absolute;
+	overflow:hidden;
+	left:-307px;top:0px;/*-217*/	
+}
+#theRight li:nth-child(2):hover #lis2{
+	width:217px;
+	transition:all 1s;
+	transform:translateX(90px);
+} 
+#theRight #lis2 li:nth-child(1){
+	width:217px;
+	height:52px;
+	background:url(../img/theRight.png) 300px 736px;
+}
+#theRight #lis2 li:nth-child(2){
+	width:217px;
+	height:50px;
+	background:url(../img/theRight.png) 300px 684px;
+}
+#theRight #lis2 li:nth-child(3){
+	width:217px;
+	height:52px;
+	background:url(../img/theRight.png) 300px 635px;
+}
+/*==================二级菜单划过效果============*/
+#theRight #lis2 li:nth-child(1):hover{
+	background:url(../img/theRight.png) 294px 460px;
+}
+#theRight #lis2 li:nth-child(2):hover{
+ background:url(../img/theRight.png) 294px 408px;
+}
+#theRight #lis2 li:nth-child(3):hover{
+background:url(../img/theRight.png) 294px 359px;
+}
+/*==========二级菜单=======*/
+#theRight .lis3{
+	width:0px;
+	overflow:hidden;
+	transition:all 1s;
+    position:absolute;
+	left:-291px;top:-6px;
+}
+#theRight .lis3 li{
+	width:221px;
+	height:100px;
+	background:url(../img/theRight.png) 561px 740px;
+}
+#theRight li:nth-child(5):hover .lis3{
+	width:221px;
+	transform:translateX(70px);
+}
+
+/*================================注册页面========================================*/
+.zzc{
+	width:100%;
+	height:100%;
+	background:#000;
+	position:fixed;
+	top:0;left:0;
+	z-index:10000000;
+	opacity:0.3;
+	/*display:none;*/
+}
+.page{
+	width:429px;
+	height:400px;
+	background:#fff;
+	position:fixed;
+	left:50%;top:50%;
+	margin-top:-200px;
+	margin-left:-215px;
+	z-index:100000001;
+	display:none;
+}
+
+.page .pageTop{
+	width:429px;
+	height:37px;
+	background:#000;
+}
+.page .pageTop h1{
+	color:#fff;
+	font-size:18px;
+	float:left;
+	line-height:36px;
+	padding-left:15px; 
+	font-weight:100;
+}
+.page .pageTop a{
+	float:right;
+	line-height:36px;
+	color:#ccc;
+	padding-right:10px;
+}
+/*=======账号====*/
+.enroll_inputa{
+	width:360px;
+	border:1px solid #c2c2c2;
+	margin:15px auto 0;
+}
+.enroll_inputa input{
+	width:283px;
+	height:27px;
+	border:none;
+}
+.page label{
+	width:60px;
+	height:20px;
+	font-size:12px;
+	padding:0 5px;
+	text-align: justify;
+    text-align-last: justify;
+	display:inline-block;
+	border-right:1px solid #c2c2c2; 
+}
+/*=========账号提示框===========*/
+#hint1{
+	height: 15px;
+    width: 360px;
+    color: #ef1c22;
+    font-size:12px;
+   margin:2px auto;
+}
+/*===========密码框=======*/
+
+.pass_inputa{
+	width:360px;
+	border:1px solid #c2c2c2;
+	margin:0 auto;
+}
+.pass_inputa input{
+	width:282px;
+	height:27px;
+	border:none;
+}
+/*密码提示框*/
+#hint2{
+	height: 15px;
+    width: 360px;
+    color: #ef1c22;
+    font-size:12px;
+   margin:2px auto;
+}
+/*确认密码框*/
+.pass2_inputa{
+	width:360px;
+	border:1px solid #c2c2c2;
+	margin:0 auto;
+}
+
+.pass2_inputa input{
+	width:283px;
+	height:27px;
+	border:none;
+}
+/*确认密码提示框*/
+#hint3{
+	height: 15px;
+    width: 360px;
+    color: #ef1c22;
+    font-size:12px;
+   margin:2px auto;
+}
+/*验证码*/
+.authCode{
+	width: 360px;
+    height: 30px;
+   margin-top:10px;
+   margin-left:35px;
+}
+
+.authCode input{
+	width:116px;
+	border:none;
+}
+.authCode p{
+	width:197px;
+	height:30px; 
+	float:left;
+	border:1px solid #c2c2c2;
+}
+#authCode1 {
+	width:116px;
+	height:30px;
+	float:right;
+}
+.authCode h4{
+	width:158px;
+	height:30px;
+	float:right;
+}
+/*获取的验证码*/
+#code{
+	width:117px;
+	height:30px;
+	font-size:16px;
+	text-align:center;
+	color:#c8dd65;
+	float:left;
+	background:#fbfdea;
+}
+/*换一张*/
+.authCode h4 em{
+	font-style:normal;
+	font-size:12px;
+	padding-left:5px;
+}
+/*手机验证码*/
+.phone{
+	width: 360px;
+    height: 30px;
+   margin-top:10px;
+   margin-left:35px;
+}
+
+.phone input{
+	width:116px;
+	border:none;
+}
+.phone p{
+	width:197px;
+	height:30px; 
+	float:left;
+	border:1px solid #c2c2c2;
+}
+.phone1 {
+	width:116px;
+	height:30px;
+	float:right;
+}
+.phone h4{
+	width:158px;
+	height:30px;
+	float:right;
+}
+/*获取的验证码*/
+#phonecode{
+	width:128px;
+	height:30px;
+	color:#000;
+	float:left;
+	background:#d3cfcf;
+}
+/*勾选框*/
+.enroll_main{
+	width:300px;
+	height:18px;
+	margin-left:35px;
+}
+.enroll_main #checkbox{
+	margin-top:2px;
+	float:left;
+	border:none;
+}
+.enroll_main p{
+	float:left;
+	padding-left:5px;
+	font-size:12px;
+}
+.enroll_main a{
+       color:#005ce6;
+       padding:0 3px;
+}
+/**/
+#hint4{
+	height: 15px;
+    width: 360px;
+    color: #ef1c22;
+    font-size:12px;
+   margin:2px auto;
+}
+#hint5{
+	height: 15px;
+    width: 360px;
+    color: #ef1c22;
+    font-size:12px;
+   margin:2px auto;
+}
+/*立即注册*/
+.register{
+	width:360px;
+	height:26px;
+	border-radius:5px;
+	margin:15px auto 0;
+	text-align:center;
+	background-color:#ef1c22;
+}
+.register a{
+	color:#fff;
+
+}
+
+/*=================================登录页面============================*/
+.Enter{
+	width:429px;
+	height:340px;
+	position:relative;
+	padding-bottom:10px;
+	position: fixed;
+	left: 50%;
+	margin-left: -215px;
+	top: 80px;
+	z-index: 10000100;
+	background: #fff;
+}
+.Enter .top{
+	width:429px;
+	height: 40px;
+	position:relative;
+  background-color: #000;
+}
+.Enter .top .top1{
+	width:50%;
+	text-align:center;
+	line-height:40px;
+	float:left;
+	color:#ccc;
+}
+#top-left{
+	border-bottom: 3px solid #f10000;
+    color:#f10000;
+}
+#click{
+ width:10px;
+ height:10px;
+ background:#000;
+ position:absolute;
+ right:10px;top:5px;
+ color:#ccc;
+}
+/*普通登录*/
+.bottom1{
+	width:100%;
+	height:300px;
+	position:absolute;
+	top:42px;left:0;
+	/*display:none;*/
+}
+/*====账号====*/
+.bottom1 .enroll .zhHao{
+	width:330px;
+	height:34px;
+    border: 1px solid #c2c2c2;
+   overflow: hidden;
+   margin: 39px auto 4px;
+}
+.bottom1 .enroll .imgq{
+	width: 34px;
+    height: 40px;
+   text-align:center;
+   line-height:40px;
+   border-right: 1px solid #c2c2c2;
+   float: left;
+}
+.bottom1 .enroll input{
+	width:284px;
+	margin-left:6px;
+	height:34px;
+	border:none;
+	float:right;
+}
+/*======密码====*/
+.bottom1 .passmima .mima{
+	width:330px;
+	height:34px;
+    border: 1px solid #c2c2c2;
+   overflow: hidden;
+   margin: 4px auto 0;
+}
+.bottom1 .passmima .imgq{
+	width: 34px;
+    height: 40px;
+   text-align:center;
+   line-height:40px;
+   border-right: 1px solid #c2c2c2;
+   float: left;
+}
+.bottom1 .passmima input{
+	width:284px;
+	margin-left:6px;
+	height:34px;
+	border:none;
+	float:right;
+}
+#hints{
+	width:330px;
+	height:30px;
+	font-size:12px;
+	color:red;
+	margin:0 auto;
+}
+
+.AutoLogon{
+	width:200px;
+	height:30px;
+	margin-left:50px;
+	line-height:30px;
+}
+#chebox{
+	border:none;
+	float:left;
+	margin:6px 3px;
+}
+.AutoLogon span{
+	float:left;	
+	color: #000;
+	font-size:12px;
+	margin-top:-2px;
+}
+
+.register{
+	width:330px;
+	height:26px;
+	border-radius:5px;
+	margin:0 auto;
+	text-align:center;
+	background-color:#ef1c22;
+}
+.register a{
+	color:#fff;
+
+}
+#p1{
+	width:330px;
+	height:17px;
+	margin:10px auto;
+}
+#ljzc1{
+	float:left;
+	font-size:12px;
+	color: #005ce6;
+}
+#wjmm{
+	float:right;
+	font-size:12px;
+	color: #005ce6;
+}
+.cooperation{
+	width:330px;
+	height:20px;
+	font-size:12px;
+	margin:15px auto 0;
+}
+.cooperation_items{
+	width:330px;
+	height:20px;
+	margin-top:4px;
+	line-height:20px;
+}
+.cooperation_items a{
+	padding:0 10px;
+}
+.cooperation_items a:nth-child(1){
+	padding-left:0px;
+}
+
+/*=============快捷登录=================*/
+.bottom2{
+	width:100%;
+	height:333px;
+	position:absolute;
+	top:42px;left:0;
+	background:#fff;
+	display:none;
+}
+.bottom2 .enroll1 .zhHao1{
+	width:330px;
+	height:34px;
+    border: 1px solid #c2c2c2;
+   overflow: hidden;
+   margin: 39px auto 4px;
+}
+.bottom2 .enroll1 .imgq1{
+	width: 34px;
+    height: 40px;
+   text-align:center;
+   line-height:40px;
+   border-right: 1px solid #c2c2c2;
+   float: left;
+}
+.bottom2 .enroll1 input{
+	width:284px;
+	margin-left:6px;
+	height:34px;
+	border:none;
+	float:right;
+}
+ /*验证码*/
+.authCode1{
+	width: 330px;
+    height:34px;
+   margin-left:48px;
+}
+
+.authCode1 input{
+	width:116px;
+	border:none;
+ }
+.authCode1 .yanzhengma{
+	width:146px;
+	height:32px; 
+	float:left;
+	border:1px solid #c2c2c2;
+}
+.bottom2 .authCode1 .imgq1{
+	width: 34px;
+	height:32px;
+   text-align:center;
+   line-height:40px;
+   border:none;
+   border-right:1px solid #c2c2c2;
+   float:left;
+}
+#authCode2 {
+	width:100px;
+	padding-left:10px;
+	height:32px;
+	float:left;
+
+}
+.authCode1 h4{
+	width:158px;
+	height:30px;
+	margin-left:10px;
+	float:left;
+}
+/*获取的验证码*/
+#code1{
+	width:117px;
+	height:30px;
+	font-size:16px;
+	text-align:center;
+	color:#c8dd65;
+	float:left;
+	background:#fbfdea;
+}
+/*换一张*/
+.authCode1 h4 em{
+	font-style:normal;
+	font-size:12px;
+	padding-left:5px;
+}
+/*======密码====*/
+.bottom2 .passmima{
+	width:330px;
+	height:34px;
+   overflow: hidden;
+   margin: 4px auto 0;
+}
+.bottom2 .passmima .mima{
+	width:206px;
+	height:32px;
+	float:left;
+	border: 1px solid #c2c2c2;
+}
+.bottom2 .passmima .imgq{
+	width: 34px;
+    height:32px;
+   text-align:center;
+   line-height:40px;
+   border-right: 1px solid #c2c2c2;
+   float: left;
+}
+.bottom2 .passmima input{
+	width:160px;
+	margin-left:6px;
+	height:32px;
+	border:none;
+	float:right;
+}
+.bottom2 .passmima h4{
+	width:120px;
+	height:34px;
+	float:left;
+}
+#phonecode1{
+	width:128px;
+	height:30px;
+	color:#000;
+	float:left;
+	background:#d3cfcf;
+}
+#hints1{
+	width:330px;
+	height:30px;
+	font-size:12px;
+	color:red;
+	margin:0 auto;
+}
+
+.AutoLogon{
+	width:200px;
+	height:30px;
+	margin-left:50px;
+	line-height:30px;
+}
+#chebox{
+	border:none;
+	float:left;
+	margin:6px 3px;
+}
+.AutoLogon span{
+	float:left;	
+	color: #000;
+	font-size:12px;
+	margin-top:-2px;
+}
+
+.register1{
+	width:330px;
+	height:26px;
+	border-radius:5px;
+	margin:0 auto;
+	text-align:center;
+	background-color:#ef1c22;
+}
+.register1 a{
+	color:#fff;
+
+}
+#p1{
+	width:330px;
+	height:17px;
+	margin:10px auto;
+}
+#ljzc{
+	float:left;
+	font-size:12px;
+	color: #005ce6;
+}
+#wjmm{
+	float:right;
+	font-size:12px;
+	color: #005ce6;
+}
+.cooperation{
+	width:330px;
+	height:20px;
+	font-size:12px;
+	margin:15px auto 0;
+}
+.cooperation_items{
+	width:330px;
+	height:20px;
+	margin-top:4px;
+	line-height:20px;
+}
+.cooperation_items a{
+	padding:0 10px;
+}
+.cooperation_items a:nth-child(1){
+	padding-left:0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,148 @@
+
+/*=================个性定制=======================*/
+.Personalized{
+	width:100%;
+	height:690px;
+	background:#fff;
+}
+.PersonalizedTop{
+	width:100%;
+	height:370px;
+	line-height:370px;
+	background:#fff;
+}
+.PersonalizedTop img{
+   margin:60px 287px;
+}
+.PersonalizedBottom{
+	width:100%;
+	height:310px;
+	background:#ececec;
+}
+.PersonalizedBottom img{
+	margin:0 340px 30px;
+}
+.buy{
+	width:637px;
+	height:130px;
+	font-size:12px;
+	margin:0 auto;
+}
+.buy p{
+	margin:0 0 10px;
+	color:#687073;
+}
+.buy span{
+	font-size:14px;
+	color:#687073;
+	font-weight:600;
+}
+/*=============轮播===================*/
+#Box,#Lis{
+    width:100%;
+    height:500px;
+    position:relative;
+}
+#Lis li{
+    width:100%;
+    height:500px;
+   position:absolute;
+   top:0;left:0;
+}
+#Lis img{
+     width:100%;
+     height:500px;
+}
+#Lis .Box1{
+   width:440px;
+   height:290px;
+   position:absolute;
+   right:40px;top:105px;
+   background:#fff;
+   opacity:0.5;
+   z-index:10;
+}
+#Lis .Box1 span{
+  display:block;
+  width:94px;
+  height:22px;
+  font-size:12px;
+  background:#000;
+  color:#fff;
+  text-align:center;
+  line-height:22px;
+  margin:33px 0 0 32px;
+}
+#Lis .Box1 .H-1{
+  line-height:36px;
+  font-size: 36px;
+  color:#000;
+  font-weight:100;
+  margin:16px 0 0 32px;
+}
+#Lis .Box1 .H-2{
+  line-height:16px;
+  font-size:14px;
+  color:#000;
+  font-weight:100;
+  margin:10px 0 0 32px;
+}
+#Lis .Box1 button{
+    width:158px;
+    height:38px;
+    background:#fff;
+    border-radius:2px;
+    border:1px solid #000;
+    margin:16px 0 0 32px;
+}
+#Lis .Box1 .Box-1 {
+    margin:10px 0 0 32px;
+
+}
+#Lis .Box1 .Box-1 p:nth-child(1){
+    font-size:12px;
+    color:#000;
+    line-height:19.2px;
+}
+#Lis .Box1 .Box-1 p:nth-child(2){
+    font-size:12px;
+    color:#000;
+    line-height:19.2px;
+}
+#Lis button:hover {
+  background:#000;
+  color:#fff;
+}
+
+#Lis1 li{
+  float:left;
+  padding:0 15px;
+  line-height:40px;
+  transition:all 0.3s;
+  background:rgb(234,234,234);
+  opacity:0.6;
+}
+#Lis1 li:nth-child(1){
+  position:absolute;
+  bottom:0;left:200px;
+}
+#Lis1 li:nth-child(2){
+  position:absolute;
+  bottom:0;left:370px;
+}
+#Lis1 li:nth-child(3){
+  position:absolute;
+  bottom:0;left:610px;
+}
+#Lis1 li:nth-child(4){
+  position:absolute;
+  bottom:0;right:340px;
+}
+#Lis1 li:nth-child(5){
+  position:absolute;
+  bottom:0;right:110px;
+}
+#Lis1 li a{
+   color:rgb(17,17,17);
+  font-size:18px;
+}

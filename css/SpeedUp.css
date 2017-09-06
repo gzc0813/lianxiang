@@ -1,0 +1,36 @@
+#Box,#Lis{
+    width:100%;
+    height:500px;
+    position:relative;
+}
+#Lis li{
+    width:100%;
+    height:500px;
+   position:absolute;
+   top:0;left:0;
+}
+#Lis img{
+     width:100%;
+     height:500px;
+}
+#Lis1 li{
+  float:left;
+  padding:0 15px;
+  line-height:40px;
+  transition:all 0.3s;
+  background:#ececec;
+/*  opacity:0.4;*/
+}
+#Lis1 li:nth-child(1){
+  position:absolute;
+  bottom:0;left:500px;
+}
+#Lis1 li:nth-child(2){
+  position:absolute;
+  bottom:0;left:670px;
+}
+#jsd3{
+  width:100%;
+  height:1039px;
+  background: url(../img/jsd3.jpg) center;
+}

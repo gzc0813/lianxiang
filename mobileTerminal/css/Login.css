@@ -1,0 +1,167 @@
+html,body,div,p,ol,ul,li,dl,dt,dd,form,table,tr,td,h1,h2,h3,h4,h5,h6,hr,img,input{
+	margin: 0;
+	padding: 0;
+}
+html{font-size:100px;}
+body{font-family:"微软雅黑",Arial;}
+ul li{list-style: none;}
+a{text-decoration: none;}
+img{border:none;display: block;}
+
+.box{
+	width:100%;
+	height:6.67rem;
+	position:relative;
+}
+.box li{
+	width:100%;
+	height:6.67rem;
+	position:absolute;
+	left:0;top:0;
+}
+.box img{
+   width:100%;
+   height:100%;
+}
+/*======主要内容=======*/
+.content{
+	width:85.3%;
+	height:2.1rem;
+	position:absolute;
+	left:7.3%;top:26.5%;
+}
+#text1{
+     width:100%;
+     position:relative;
+     height:0.51rem;
+     border-bottom:1px solid #407c99;
+}
+input{
+     position:absolute;
+     top:0;
+     width:100%;
+     color:#fff;
+     font-size:20px;
+     background:none;
+     border:0;
+     height:0.51rem;
+}
+#img{
+	width:0.35rem;
+	height:0.35rem;
+	position:absolute;
+	right:0.35rem;top:0.1rem;
+	border-radius:50%;
+	display:none;
+}
+.message{
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0;top:0.51rem;
+	display:none;
+	z-index:1000;
+}
+.message a{
+	float:left;
+	font-size:16px;
+	line-height:0.51rem;
+	color:#fff;
+}
+#img1{
+  width:0.35rem;
+	height:0.35rem;
+	position:absolute;
+	right:0.35rem;top:0.1rem;
+	border-radius:50%;
+
+}
+.qq{
+	width:1rem;
+	height:0.35rem;
+	position:absolute;
+	top:15%;left:7.2%;
+}
+#text2{
+	position:relative;
+     width:100%;
+     height:0.51rem;
+     border-bottom:1px solid #407c99;
+
+}
+.login{
+	display:block;
+	width:100%;
+	height:0.4rem;
+	border-radius:0.025rem;
+	background:#1aa9e1;
+	margin-top:0.21rem;
+	color:#fff;
+	font-size:18px;
+	text-align:center;
+	line-height:0.4rem;
+	opacity:0.6;
+}
+.forget{
+	width:100%;
+	height:0.4rem;
+	margin-top:0.05rem;
+}
+.forget a:nth-child(1){
+    float:left;
+    width:0.69rem;
+    height:0.4rem;
+    font-size:14px;
+    color:#0ac4ff;
+    opacity:0.6;
+    line-height:0.4rem;
+}
+.forget a:nth-child(2){
+    float:right;
+    width:0.73rem;
+    height:0.4rem;
+    font-size:14px;
+    color:#0ac4ff;
+    opacity:0.6;
+    line-height:0.4rem;
+}
+/*=====服务条款======*/
+.log{
+	width:57.1%;
+	height:0.22rem;
+	font-size:14px;
+	text-align:center;
+	color:#e0e8ed;
+	position:absolute;
+	left:23%;bottom:13.5%;
+}
+.log a{
+	color:#12b7f6;
+}
+/*====footer=====*/
+.footer{
+	width:100%;
+	height:0.5rem;
+	background:#000;
+	position:fixed;
+	left:0;bottom:0;
+
+}
+.footer img{
+	margin-top:0.14rem;
+	width:0.25rem;
+	height:0.23rem; 
+	margin-left:33.3%;
+}
+.footer li{
+	float:left;
+	width:20%;
+	height:0.5rem;
+  
+}
+/*.footer li:nth-child(2),.footer li:nth-child(5){
+	margin-left:12.8%;
+}
+.footer li:nth-child(3),.footer li:nth-child(4){
+	margin-left:14.9%;
+}*/
