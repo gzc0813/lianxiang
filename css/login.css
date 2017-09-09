@@ -1,0 +1,380 @@
+html,body,dl,dd,tr,td,ul,ol,li,th,h1,h2,h3,h4,h5,img,p,table,input{margin:0;padding:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+img{border:none;}
+body{
+   background:#f5f5f5;
+   font-family:"微软雅黑",Arial;
+   position: relative;	
+}
+
+
+
+/*=================================登录页面============================*/
+.zzc{
+	width:100%;
+	height:100%;
+	background:#000;
+	position:fixed;
+	top:0;left:0;
+	z-index:10000000;
+	opacity:0.3;
+}
+#Enter{
+	width:429px;
+	height:340px;
+	padding-bottom:10px;
+	position:fixed;
+	left:50%;
+	margin-left:-215px;
+	top: 80px;
+	z-index: 10000100;
+	background: #fff;
+}
+#Enter .top{
+	width:429px;
+	height:40px;
+	position:relative;
+  background-color: #000;
+}
+#Enter .top .top1{
+	width:50%;
+	text-align:center;
+	line-height:40px;
+	float:left;
+	color:#ccc;
+}
+#top-left{
+	border-bottom: 3px solid #f10000;
+    color:#f10000;
+}
+#click{
+ width:10px;
+ height:10px;
+ background:#000;
+ position:absolute;
+ right:10px;top:5px;
+ color:#ccc;
+}
+/*普通登录*/
+.bottom1{
+	width:100%;
+	height:300px;
+	position:absolute;
+	top:42px;left:0;
+}
+/*====账号====*/
+.bottom1 .enroll .zhHao{
+	width:330px;
+	height:34px;
+    border: 1px solid #c2c2c2;
+   overflow: hidden;
+   margin: 39px auto 4px;
+}
+.bottom1 .enroll .imgq{
+	width: 34px;
+    height: 40px;
+   text-align:center;
+   line-height:40px;
+   border-right: 1px solid #c2c2c2;
+   float: left;
+}
+.bottom1 .enroll input{
+	width:284px;
+	margin-left:6px;
+	height:34px;
+	border:none;
+	float:right;
+}
+/*======密码====*/
+.bottom1 .passmima .mima{
+	width:330px;
+	height:34px;
+    border: 1px solid #c2c2c2;
+   overflow: hidden;
+   margin: 4px auto 0;
+}
+.bottom1 .passmima .imgq{
+	width: 34px;
+    height: 40px;
+   text-align:center;
+   line-height:40px;
+   border-right: 1px solid #c2c2c2;
+   float: left;
+}
+.bottom1 .passmima input{
+	width:284px;
+	margin-left:6px;
+	height:34px;
+	border:none;
+	float:right;
+}
+#hints{
+	width:330px;
+	height:30px;
+	font-size:12px;
+	color:red;
+	margin:0 auto;
+}
+
+.AutoLogon{
+	width:200px;
+	height:30px;
+	margin-left:50px;
+	line-height:30px;
+}
+#chebox{
+	border:none;
+	float:left;
+	margin:6px 3px;
+}
+.AutoLogon span{
+	float:left;	
+	color: #000;
+	font-size:12px;
+	margin-top:-2px;
+}
+
+.register{
+	width:330px;
+	height:26px;
+	border-radius:5px;
+	margin:0 auto;
+	text-align:center;
+	background-color:#ef1c22;
+}
+.register a{
+	color:#fff;
+
+}
+#p1{
+	width:330px;
+	height:17px;
+	margin:10px auto;
+}
+#ljzc1{
+	float:left;
+	font-size:12px;
+	color: #005ce6;
+}
+#wjmm{
+	float:right;
+	font-size:12px;
+	color: #005ce6;
+}
+.cooperation{
+	width:330px;
+	height:20px;
+	font-size:12px;
+	margin:15px auto 0;
+}
+.cooperation_items{
+	width:330px;
+	height:20px;
+	margin-top:4px;
+	line-height:20px;
+}
+.cooperation_items a{
+	padding:0 10px;
+}
+.cooperation_items a:nth-child(1){
+	padding-left:0px;
+}
+
+/*=============快捷登录=================*/
+.bottom2{
+	width:100%;
+	height:333px;
+	position:absolute;
+	top:42px;left:0;
+	background:#fff;
+	display:none;
+}
+.bottom2 .enroll1 .zhHao1{
+	width:330px;
+	height:34px;
+    border: 1px solid #c2c2c2;
+   overflow: hidden;
+   margin: 39px auto 4px;
+}
+.bottom2 .enroll1 .imgq1{
+	width: 34px;
+    height: 40px;
+   text-align:center;
+   line-height:40px;
+   border-right: 1px solid #c2c2c2;
+   float: left;
+}
+.bottom2 .enroll1 input{
+	width:284px;
+	margin-left:6px;
+	height:34px;
+	border:none;
+	float:right;
+}
+ /*验证码*/
+.authCode1{
+	width: 330px;
+    height:34px;
+   margin-left:48px;
+}
+
+.authCode1 input{
+	width:116px;
+	border:none;
+ }
+.authCode1 .yanzhengma{
+	width:146px;
+	height:32px; 
+	float:left;
+	border:1px solid #c2c2c2;
+}
+.bottom2 .authCode1 .imgq1{
+	width: 34px;
+	height:32px;
+   text-align:center;
+   line-height:40px;
+   border:none;
+   border-right:1px solid #c2c2c2;
+   float:left;
+}
+#authCode2 {
+	width:100px;
+	padding-left:10px;
+	height:32px;
+	float:left;
+
+}
+.authCode1 h4{
+	width:158px;
+	height:30px;
+	margin-left:10px;
+	float:left;
+}
+/*获取的验证码*/
+#code1{
+	width:117px;
+	height:30px;
+	font-size:16px;
+	text-align:center;
+	color:#c8dd65;
+	float:left;
+	background:#fbfdea;
+}
+/*换一张*/
+.authCode1 h4 em{
+	font-style:normal;
+	font-size:12px;
+	padding-left:5px;
+}
+/*======密码====*/
+.bottom2 .passmima{
+	width:330px;
+	height:34px;
+   overflow: hidden;
+   margin: 4px auto 0;
+}
+.bottom2 .passmima .mima{
+	width:206px;
+	height:32px;
+	float:left;
+	border: 1px solid #c2c2c2;
+}
+.bottom2 .passmima .imgq{
+	width: 34px;
+    height:32px;
+   text-align:center;
+   line-height:40px;
+   border-right: 1px solid #c2c2c2;
+   float: left;
+}
+.bottom2 .passmima input{
+	width:160px;
+	margin-left:6px;
+	height:32px;
+	border:none;
+	float:right;
+}
+.bottom2 .passmima h4{
+	width:120px;
+	height:34px;
+	float:left;
+}
+#phonecode1{
+	width:128px;
+	height:30px;
+	color:#000;
+	float:left;
+	background:#d3cfcf;
+}
+#hints1{
+	width:330px;
+	height:30px;
+	font-size:12px;
+	color:red;
+	margin:0 auto;
+}
+
+.AutoLogon{
+	width:200px;
+	height:30px;
+	margin-left:50px;
+	line-height:30px;
+}
+#chebox{
+	border:none;
+	float:left;
+	margin:6px 3px;
+}
+.AutoLogon span{
+	float:left;	
+	color: #000;
+	font-size:12px;
+	margin-top:-2px;
+}
+
+.register1{
+	width:330px;
+	height:26px;
+	border-radius:5px;
+	margin:0 auto;
+	text-align:center;
+	background-color:#ef1c22;
+}
+.register1 a{
+	color:#fff;
+
+}
+#p1{
+	width:330px;
+	height:17px;
+	margin:10px auto;
+}
+#ljzc{
+	float:left;
+	font-size:12px;
+	color: #005ce6;
+}
+#wjmm{
+	float:right;
+	font-size:12px;
+	color: #005ce6;
+}
+.cooperation{
+	width:330px;
+	height:20px;
+	font-size:12px;
+	margin:15px auto 0;
+}
+.cooperation_items{
+	width:330px;
+	height:20px;
+	margin-top:4px;
+	line-height:20px;
+}
+.cooperation_items a{
+	padding:0 10px;
+}
+.cooperation_items a:nth-child(1){
+	padding-left:0px;
+}

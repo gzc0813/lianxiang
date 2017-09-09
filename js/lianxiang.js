@@ -119,6 +119,7 @@ $("ft").onclick=function(){
 }
 /*=================鼠标滑过楼层字体变黑的效果=======================*/
 var las=$("theLeft").getElementsByClassName("show");
+console.log(em.length);
   for(let i=0;i<las.length;i++){
     las[i].index=i;
     las[i].onmouseover=function(){
